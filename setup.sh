@@ -131,7 +131,7 @@ function choose_ref {
 }
 
 function initialize_from_site_template {
-  local repo="https://github.com/Islandora-Devops/isle-site-template"
+  local repo="https://github.com/t4k/isle-site-template"
   local ref
   echo "Initializing from site template..."
   # Use --buildkit-tag flag if provided; otherwise, prompt.
@@ -147,7 +147,7 @@ function initialize_from_site_template {
 }
 
 function initialize_from_starter_site {
-  local repo="https://github.com/Islandora-Devops/islandora-starter-site"
+  local repo="https://github.com/t4k/islandora-starter-site"
   local ref
   echo "Initializing from starter site..."
   # Use --starter-site-branch flag if provided; otherwise, prompt.

@@ -97,7 +97,7 @@ for an automated setup. It is roughly equivalent to the
 [Manual Setup](#manual-setup).
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Islandora-Devops/isle-site-template/main/setup.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/t4k/isle-site-template/main/setup.sh)"
 ```
 
 You should now have a folder with the `SITE_NAME` you provided to the above
